@@ -4,8 +4,8 @@ import './SingleService.css'
 const SingleService = (props) => {
     const { name, img, email, phone, region, postalZip } = props.user;
     return (
-        <div className="card">
-            <div className="text-center">
+        <div className="card2">
+            <div className="mx-auto">
                 <img className=" my-size-image" src={img} alt="" />
             </div>
             <h4>Name : {name}</h4>

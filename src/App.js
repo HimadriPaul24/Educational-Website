@@ -32,7 +32,7 @@ function App() {
             <Home></Home>
           </Route>
 
-          <Route path="/teamMember">
+          <Route path="/musicians">
             <TeamMember></TeamMember>
           </Route>
 

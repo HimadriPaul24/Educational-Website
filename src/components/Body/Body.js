@@ -12,26 +12,29 @@ const Body = () => {
 
                     <div class="col-md-4 services">
                         <div className="icon mx-auto">
-                            <i class="fab fa-accessible-icon"></i>
+                            <i class="fas fa-guitar"></i>
+
                         </div>
-                        <h4>Physics</h4>
-                        <p>Physics is the basic physical science. Until rather recent times physics and natural philosophy were used interchangeably for the science whose aim is the discovery and</p>
+                        <h4>Classical</h4>
+                        <p>Classical music is a term that most commonly refers to the formal musical tradition of the Western world, considered to be distinct from Western folk music or popular music traditions. In a more general sense, the term may also refer to music evidencing similar formal qualities in non-Western cultures</p>
                     </div>
 
                     <div class="col-md-4 services">
                         <div className="icon mx-auto">
-                            <i class="fab fa-accusoft"></i>
+                            <i class="fas fa-headphones-alt"></i>
                         </div>
-                        <h4>Biology</h4>
-                        <p>Biology is a branch of science that deals with living organisms and their vital processes. Biology encompasses diverse fields, including botany, conservation, ecology.</p>
+                        <h4>Rock</h4>
+                        <p>
+                            Rock 'n' roll is a popular music genre that combines elements of rhythm and blues (RandB), jazz, and country music with the addition of electric instruments. Originally associated with youth revolt and transgression, the genre is known for energetic performances, catchy melodies, and often insightful lyric</p>
                     </div>
 
                     <div class="col-md-4 services">
                         <div className="icon mx-auto">
-                            <i class="fab fa-android"></i>
+                            <i class="fas fa-drum"></i>
+
                         </div>
-                        <h4>Higher math</h4>
-                        <p>So that you can create a solution or answer for your SSC Advanced Mathematics Assignment by looking at our sample answer sheet. But the solution of the assignment cannot be written by looking </p>
+                        <h4>Folk Music</h4>
+                        <p>Folk music, type of traditional and generally rural music that originally was passed down through families and other small social groups. Typically, folk music, like folk literature, lives in oral tradition; it is learned through hearing rather than reading </p>
                     </div>
 
                 </div>

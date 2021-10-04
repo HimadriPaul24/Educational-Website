@@ -13,7 +13,7 @@ const MenuBar = () => {
         <div className="row">
           <div className="col-md-4">
             <div className="logo-img">
-              <h1>Educati<span className="color-cng">O</span>n</h1>
+              <h1>Music Fusi<span className="color-cng">O</span>n</h1>
             </div>
           </div>
           <div className="col-md-8">
@@ -23,7 +23,7 @@ const MenuBar = () => {
                   <li>Home</li>
                 </Link>
                 <Link to="/teamMember" className="items">
-                  <li>Teams</li>
+                  <li>Musicians</li>
                 </Link>
                 <Link to="/services" className="items">
                   <li>Services</li>

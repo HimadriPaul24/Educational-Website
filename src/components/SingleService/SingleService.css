@@ -1,14 +1,15 @@
-.card {
-    background: #64cee9;
+.card2 {
+    background: rgb(61, 145, 184);
     color: #fff;
     padding-top: 50px;
     padding-bottom: 30px;
     height: 470px;
     width: 400px;
+    border-radius: 10px;
 }
 .my-size-image{
-    /* height: 200px; */
-    width: 230px;
+    height: 150px;
+    width: 200px;
     margin-bottom: 20px;
     border-radius: 10px;
 }

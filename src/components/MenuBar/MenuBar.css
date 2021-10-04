@@ -10,10 +10,10 @@
     transition: .3s;
   }
   .items:hover {
-    color: rgba(11, 3, 34, 0.466);
+    color:red;
   }
 .MenuBar-container {
-    background: rgb(57, 161, 230);
+    background: blueviolet;
     padding: 10px 0;
     
 

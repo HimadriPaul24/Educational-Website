@@ -20,7 +20,7 @@ const Services = () => {
     return (
         <div>
             <MenuBar />
-            <h1 className="text-center p-4 bg-primary text-white">Services</h1>
+            <h1 className="text-center p-4">Services</h1>
             <div className="card-container">
                 {
                     courses.map(course => <Service course={course}></Service>)
