@@ -1,11 +1,17 @@
 import React from 'react';
+import Banner from '../Banner/Banner';
+import Body from '../Body/Body';
+import Footer from '../Footer/Footer';
 
-const home = () => {
+
+const Home = () => {
     return (
         <div>
-            <h2>This is home</h2>
+            <Banner></Banner>
+            <Body></Body>
+            <Footer></Footer>
         </div>
     );
 };
 
-export default home;
+export default Home;

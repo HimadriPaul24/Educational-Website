@@ -1,0 +1,22 @@
+.banner{
+    background-image: url("https://www.freepik.com/free-vector/musical-notes-with-sound-wave-background_16306121.htm#page=1&query=music%20icon&position=20&from_view=keyword"),linear-gradient(rgba(0,0,0,0.324),rgba(0,0,0,0.589)) ;
+    height: 780px;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.title{
+    color: white;
+    font-weight: bold;
+    font-size: 59px;
+}
+.about-btn {
+    background-color: #0586ff;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+  }

@@ -1,43 +1,72 @@
-import logo from './logo.svg';
 import './App.css';
+import React from "react";
+import TeamMember from './components/TeamMember/TeamMember';
 import Home from './components/Home/Home';
-import Services from './components/Services/Services';
 import About from './components/About/About';
-import Site from './components/Site/Site';
-import Notfound from './components/Notfound/Notfound';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Error from './components/Error/Error';
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+
+} from "react-router-dom";
+import Services from './components/Services/Services';
+
+
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Switch>
-          <Route path="/home">
-            <Home></Home>
 
+
+      <Router>
+
+        <Switch>
+
+          <Route exact path="/">
+            <Home></Home>
           </Route>
+
+          <Route exact path="/home">
+            <Home></Home>
+          </Route>
+
+          <Route path="/teamMember">
+            <TeamMember></TeamMember>
+          </Route>
+
+          <Route path="/services">
+            <Services></Services>
+          </Route>
+
           <Route path="/about">
             <About></About>
           </Route>
-          <Route path="/services">
-            <Services></Services>
 
+          <Route path="*">
+            <Error></Error>
           </Route>
-          <Route path="/site">
-            <Site></Site>
 
-          </Route>
-          <Route exact path="/">
-            <Home></Home>
 
-          </Route>
-          <Route>
-            <Notfound></Notfound>
-          </Route>
 
 
         </Switch>
-      </BrowserRouter>
+
+
+
+      </Router>
+
+
+
+
+
+
+
+
+
+
+
     </div>
   );
 }

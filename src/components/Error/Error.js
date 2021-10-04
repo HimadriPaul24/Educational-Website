@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Site = () => {
+const Error = () => {
     return (
         <div>
-            <h2>This is site</h2>
+            <h2>Page Not Found</h2>
         </div>
     );
 };
 
-export default Site;
+export default Error;

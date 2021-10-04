@@ -1,0 +1,29 @@
+.items {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 5px;
+    text-decoration: none;
+    transition: .3s;
+  }
+  .items:hover {
+    color: rgba(11, 3, 34, 0.466);
+  }
+.MenuBar-container {
+    background: rgb(57, 161, 230);
+    padding: 10px 0;
+    
+
+}
+.logo-img {
+    color: #fff;
+    font-weight: 700;
+
+}
+
+.color-cng {
+    font-size: 50px;
+}

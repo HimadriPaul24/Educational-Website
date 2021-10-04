@@ -1,0 +1,14 @@
+.card {
+    background: #64cee9;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    height: 470px;
+    width: 400px;
+}
+.my-size-image{
+    /* height: 200px; */
+    width: 230px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
